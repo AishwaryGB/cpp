@@ -1,4 +1,5 @@
-1. #include <iostream>
+1. write a cpp prg to change the case of each character in a given string
+#include <iostream>
 #include <string>
 #include <cctype> // for tolower() and toupper() functions
 using namespace std;
@@ -25,7 +26,7 @@ int main() {
     return 0;
 }
 
-2.
+2. c++ prg to find number of digits in any number
 #include <iostream>
 using namespace std;
 int main()
@@ -42,7 +43,7 @@ while(n!=0)
 cout<<"number of digits are"<<"  "<<count<<endl;
 }
 
-3.
+3. c++ prg to reverse a number
 #include <iostream>
 using namespace std;
 int main()
@@ -59,24 +60,8 @@ int main()
    cout<<"reversed number is"<<rev<<endl;
 }
 
-4.
-#include <iostream>
-using namespace std;
-int main()
-{
-   int n,rev=0,reminder;
-   cout<<"enter the number"<<endl;
-   cin>>n;
-   while(n!=0)
-   {
-       reminder=n%10;
-       rev=rev*10+reminder;
-       n=n/10;
-   }
-   cout<<"reversed number is"<<rev<<endl;
-}
 
-5.
+5. palindrome or not
 #include <iostream>
 using namespace std;
 int main()
@@ -103,7 +88,7 @@ int main()
   }
 }
 
-6.
+6. cpp prg to display factorial from 5 to 8
 #include <iostream>
 using namespace std;
 
@@ -118,7 +103,7 @@ int main() {
 
 }
 
-7.
+7. max element in an array
 #include<iostream>
 using namespace std;
 int main()
@@ -137,7 +122,7 @@ for(int i=0;i<n;i++)
 
 }
 
-8.
+8. summ of even and odd number in an array of integers
 #include<iostream>
 using namespace std;
 int main()
@@ -160,7 +145,7 @@ int main()
         cout<<"number is even"<<esum<<endl;
         cout<<"number is odd"<<osum<<endl;
     }
-9.
+9.avg of all elements of an array using pointer
 #include<iostream>
 using namespace std;
 int main()
@@ -181,7 +166,7 @@ int main()
     cout<<"avg is:"<<(float)sum/n<<endl;
 }
 
-10.
+10. copy elements of 1 array into another using pointer
 #include<iostream>
 using namespace std;
 int main()
@@ -205,7 +190,7 @@ for(int i=0;i<5;i++)
 }
 }
 
-11.
+11. addition of 2 matrix
 #include<iostream>
 using namespace std;
 int main()
@@ -230,7 +215,7 @@ for(int i=0;i<5;i++)
 }
 }
 
-12.
+12. transpose of matrix
 
 #include<iostream>
 using namespace std;
@@ -267,7 +252,7 @@ int main()
     
 
 
-13.
+13. square of all elements of 2d array
 #include <iostream>
 using namespace std;
 
@@ -293,8 +278,23 @@ int main() {
         }
         cout << endl;
     }
+14. swapp numbers without using 3 variable
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cout<<"enter the number for a:"<<endl;
+    cout<<"enter the number for b:"<<endl;
+    cin>>a;
+    cin>>b;
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    cout<<"swapped numbers are:"<<a <<" "<<b<<endl;
+}
 
     return 0;
 }
 
-14.
+
